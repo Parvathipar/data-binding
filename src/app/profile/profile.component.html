@@ -1,0 +1,9 @@
+<h1 [innerText]="Title" [class]="title_color"></h1>
+<h3 [style.color]="color">First Name:{{FirstName}}</h3>
+<h3 [style.color]="colour=='red' ? 'orange':'yellow'">Last Name:{{LastName}}</h3>
+<input #message (keyup)="keyup(message.value)">
+<p>Email-id:{{text}}</p>
+<button (click)="onchange()">Submit</button>
+
+
+

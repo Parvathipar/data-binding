@@ -1,0 +1,15 @@
+nav{
+    a{
+        color: red;
+    }
+    li{
+        list-style-type: none;text-decoration: none;padding-right: 30px;
+    }
+    ul{
+        display: flex;
+    }
+    
+}
+li:hover{
+    color: yellow;
+}
